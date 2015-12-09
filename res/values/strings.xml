@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VideoPPS</string>
+    <string name="loading">正在加载...</string>
+    <string name="empty">没有任何视频</string>
+</resources>

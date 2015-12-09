@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+                android:layout_margin="10dip"
+        >
+
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/vedioadd_username"
+              android:hint="username"
+            />
+
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/vedioadd_path"
+              android:layout_below="@+id/vedioadd_username"
+              android:hint="source path"
+            />
+
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/vedioadd_imgpath"
+              android:layout_below="@+id/vedioadd_path"
+              android:hint="icon url"
+            />
+
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/vedioadd_add"
+            android:layout_below="@+id/vedioadd_imgpath"
+            android:text="add vedio"
+            android:layout_marginTop="10dip"
+            />
+
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/vedioadd_addlocal"
+            android:layout_below="@+id/vedioadd_add"
+            android:text="add local vdeio"
+            />
+
+</RelativeLayout>
